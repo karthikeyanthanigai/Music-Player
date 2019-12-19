@@ -32,7 +32,7 @@ submenu.add_command(label = "About us", command = about_us)
 mixer.init()
 
 #root.geometry('750x750')
-root.title("ganna")
+root.title("Music Player")
 root.iconbitmap(r'music.ico')
 
 text = Label (root,text =  'click your favourite artist and listen to there hits!!')
@@ -251,7 +251,7 @@ scale.set(75)
 mixer.music.set_volume(0.7)
 scale.pack(pady=20)
 
-statusbar = Label(root,text = "Welcome to Ganna ..",relief = SUNKEN, anchor =W)
+statusbar = Label(root,text = "Welcome to Music Player ..",relief = SUNKEN, anchor =W)
 statusbar.pack(side = BOTTOM, fill = X)
 
 
